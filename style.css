@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 50;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#resume {
+    background-color: #87CEEB;
+    width: 20cm;
+    height: 18cm;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contactInfo {
+    text-align: left;
+    margin-right: 30px;
+}
+
+h1 {
+    color: #333;
+    margin: 0;
+}
+
+p {
+    color: #333;
+    margin: 5px 0;
+}
+
+#idPlaceholder {
+    text-align: right;
+}
+
+#idPlaceholder img {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.divider {
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+#body {
+    text-align: left;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e94e3;
+}
